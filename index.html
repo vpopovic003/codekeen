@@ -1,94 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Keen</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <!--link href="/style.css" rel="stylesheet" type="text/css" media="all"-->
-  </head>
-    <body background="stars.gif">
-        <center>
-            <div class="content">
-                <style>.content {width:780px;}</style>
-                <font size="4" color="aqua"><p align="center"><i>Hello, and welcome to:</i></font>
-                <center><img src="dance_c.gif" alt="Dance C"><img src="title-text.gif" alt="Code Keen"><img src="dance_c.gif" alt="Dance C"></center>
-                <hr color="0000ff">
-                <font size="4" color="yellow"><i><marquee>Welcome to my presentation!</marquee></i></font>
-                <hr color="0000ff">
-            </div>
-        </center>
-        <center>
-            <a href="index.html"><img src="home88.gif" onmouseover="this.src='home88sel.gif'" onmouseout="this.src='home88.gif'"></a>
-            <a href="index.html"><img src="about88.gif" onmouseover="this.src='about88sel.gif'" onmouseout="this.src='about88.gif'"></a>
-            <a href="index.html"><img src="links88.gif" onmouseover="this.src='links88sel.gif'" onmouseout="this.src='links88.gif'"></a>
-        </center>
-        <center>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <center><img src="barraconstruction.gif" alt="Under Construction"></center>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <br />
-                            <center><img src="ds9.jpg" alt="Deep Space Nine" width="800"></center>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <center><img src="construction.gif" alt="Under Construction"></center>                         
-                        </td>
-                    </tr>
-<br />
-                    <tr>
-                        <td>
-                            <br />
-                            <center><img src="sflogo.gif" alt="Star Fleet Logo"></center>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <br />
-        </center>
-        <center>
-            <img src="kdovesc.gif" alt="Animated Birds">
-        </center>
-        <br />
-        <center>
-            <img src="anybrow.gif" alt="Any Browser">
-            <img src="bookmark_this_page.gif" alt="Bookmark">
-            <img src="built_with_microsoft_notepad.gif" alt="MS Notepad">
-            <img src="nocodeandrun.gif" alt="No Code">
-        </center>
-        <center>
-            <img src="ms.gif" alt="Microsoft">
-            <img src="got_html.gif" alt="Got HTML">
-            <img src="email-icon.gif" alt="E-mail">
-            <img src="startpage_button.gif" alt="Startpage">
-        </center>
-        <br />
-        <font size="4" color="white">
-            <center>
-                You are the<br />
-                <img src="hitcounter.png" /><br />
-                visitor!!!
-            </center>
-        </font>
-        <br />
-        <center>
-            <div style="width: 780px">
-                <div style="text-align: left; float: left">
-                    <font size="4" color="yellow"><i>Site design by Vladimir Popović 1998-2022</i></font>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Keen</title>
+        <!-- The style.css file allows you to change the look of your web pages.
+            If you include the next line in all your web pages, they will all share the same look.
+            This makes it easier to make new pages for your site. -->
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <body>
+        <section id="header">
+            <div class="section-content">
+                <div id="welcome">Hello, and welcome to:</div>
+                <div class="title">
+                    <div class="side-gif"><img src="images/star1.gif" alt="Star"></div>
+                    <div class="ck-banner"><img id="banner-img" src="images/title-text.gif" alt="Code Keen"></div>
+                    <div class="side-gif"><img src="images/star1.gif" alt="Star"></div>
                 </div>
-                <div style="text-align: right; float: right">
-                    <font size="4" color="aqua"><i>All rights reserved &copy;</i></font>
+                <hr>
+                <div class="marquee-bar">
+                    <marquee id="marquee-text">Welcome to my presentation!
+                        <img class="marquee-gif" src="images/flickering-stars.gif" alt="Flickering Stars">
+                    </marquee>
+                </div>  
+                <hr>     
+                <nav class="nav-bar">
+                    <div>
+                    <a href="index.html" class="nav-btn"><img src="images/navigation/home88.gif" onmouseover="this.src='images/navigation/home88sel.gif'" onmouseout="this.src='images/navigation/home88.gif'"></a>
+                    <a href="index.html" class="nav-btn"><img src="images/navigation/about88.gif" onmouseover="this.src='images/navigation/about88sel.gif'" onmouseout="this.src='images/navigation/about88.gif'"></a>
+                    <a href="index.html" class="nav-btn"><img src="images/navigation/links88.gif" onmouseover="this.src='images/navigation/links88sel.gif'" onmouseout="this.src='images/navigation/links88.gif'"></a>
+                    </div>
+                </nav>             
+            </div>
+        </section>
+        <section id="main">
+            <div class="section-content main-content">
+                <div id="construction1">
+                    <img src="images/construction.gif" alt="">
+                </div>
+                <div id="placeholder" class="gray-border gray-border-inner">
+                    <img src="images/ds9crew.webp" alt="Deep Space Nine" width="780px">
+                </div>
+                <div id="construction2">
+                    <img src="images/construction2.gif" alt="">
                 </div>
             </div>
-        </center>
+        </section>
+        <section id="footer">
+            <div class="section-content">
+                <div id="devider">
+                    <img src="images/kdovesc.gif" alt="Animated Birds">
+                </div>
+                <div class="card-links">
+                    <div id="cards-top-row">
+                        <img src="images/cards/anybrow.gif" alt="Any Browser">
+                        <img src="images/cards/bookmark_this_page.gif" alt="Bookmark">
+                        <img src="images/cards/built_with_microsoft_notepad.gif" alt="MS Notepad">
+                        <img src="images/cards/nocodeandrun.gif" alt="No Code">
+                    </div>
+                    <div id="cards-bottom-row">        
+                        <img src="images/cards/ms.gif" alt="Microsoft">
+                        <img src="images/cards/got_html.gif" alt="Got HTML">
+                        <img src="images/cards/email-icon.gif" alt="E-mail">
+                        <img src="images/cards/startpage_button.gif" alt="Startpage">
+                    </div>
+                </div>
+                <div class="hit-counter">
+                    You are the
+                    <img src="images/hitcounter.png" />
+                    visitor!!!
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-text" id="bottom-text-left"><p>Site design by Keen 1998-2022</p></div>
+                    <div class="footer-bottom-text" id="bottom-text-right"><p>All rights reserved ©</p></div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

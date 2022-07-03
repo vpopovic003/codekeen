@@ -1,0 +1,146 @@
+body {
+    background: url(images/stars.gif);
+    width: 100%;
+}
+
+section {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-content {
+    display: flex;
+    /*width: 780px;*/
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ****** Header ****** */
+
+#welcome {
+    display: flex;
+    font-size: large;
+    font-style: italic;
+    color: aqua;
+    text-align: center;
+    margin: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.marquee-bar {
+    display: flex;
+    width: 780px;
+    flex-direction: column;
+    font-size: large;
+    font-style: italic;
+    color: yellow;
+}
+
+.marquee-gif {
+    height: 15px;
+}
+
+hr {
+    border-color: blue;
+    width: 1920px;
+    size: 1px;
+}
+
+.gray-border {
+    border-color: #cbcbcb #4e474e #4e474e #cbcbcb;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.gray-border-inner {
+    outline: 2px solid #151514;
+    border: 1px solid #b1b1af;
+  }
+
+/*gray border ref: https://www.marvel.com/captainmarvel/#char-nav*/
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.nav-btn {
+    margin-inline: 5px;
+}
+
+/* ****** Main ****** */
+
+.main-content {
+    margin: 10px;
+}
+
+#placeholder {
+    margin: 10px;
+}
+
+/* ****** Footer ****** */
+
+#devider {
+    margin: 10px;
+}
+
+.card-links {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cards-top-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#cards-bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.hit-counter {
+    margin-top: 10px;
+    display: flex;
+    font-size: large;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer-bottom-text {
+    display: flex;
+    font-size: large;
+    font-style: italic;
+    margin: auto;
+}
+
+#bottom-text-left {
+    margin-left: 20px;
+    position: absolute;
+    color: yellow;
+    left: 0px;
+}
+
+#bottom-text-right {
+    margin-right: 20px;
+    position: absolute;
+    color: aqua;
+    right: 0px;
+}
