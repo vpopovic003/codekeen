@@ -8,74 +8,82 @@
             If you include the next line in all your web pages, they will all share the same look.
             This makes it easier to make new pages for your site. -->
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="parallax.css" rel="stylesheet" type="text/css" media="all">
     </head>
     <body>
-        <section id="header">
-            <div class="section-content">
-                <div id="welcome">Hello, and welcome to:</div>
-                <div class="title">
-                    <div class="side-gif"><img src="images/star1.gif" alt="Star"></div>
-                    <div class="ck-banner"><img id="banner-img" src="images/title-text.gif" alt="Code Keen"></div>
-                    <div class="side-gif"><img src="images/star1.gif" alt="Star"></div>
+        <div id="shell" class="parallax">
+            <div class="parallax__group">
+                <div class="background-layer parallax__layer parallax__layer--back"></div>
+                <div id="content" class="parallax__layer parallax__layer--base">
+                    <section id="header">
+                        <div class="section-content">
+                            <div id="welcome">Hello, and welcome to:</div>
+                            <div class="title">
+                                <div class="side-gif"><img src="images/star1.gif" alt="Star"></div>
+                                <div class="ck-banner"><img id="banner-img" src="images/title-text.gif" alt="Code Keen"></div>
+                                <div class="side-gif"><img src="images/star1.gif" alt="Star"></div>
+                            </div>
+                            <hr>
+                            <div class="marquee-bar">
+                                <marquee id="marquee-text">Welcome to my presentation!
+                                    <img class="marquee-gif" src="images/flickering-stars.gif" alt="Flickering Stars">
+                                </marquee>
+                            </div>  
+                            <hr>     
+                            <nav class="nav-bar">
+                                <div>
+                                <a href="index.html" class="nav-btn"><img src="images/navigation/home88.gif" onmouseover="this.src='images/navigation/home88sel.gif'" onmouseout="this.src='images/navigation/home88.gif'"></a>
+                                <a href="index.html" class="nav-btn"><img src="images/navigation/about88.gif" onmouseover="this.src='images/navigation/about88sel.gif'" onmouseout="this.src='images/navigation/about88.gif'"></a>
+                                <a href="index.html" class="nav-btn"><img src="images/navigation/links88.gif" onmouseover="this.src='images/navigation/links88sel.gif'" onmouseout="this.src='images/navigation/links88.gif'"></a>
+                                </div>
+                            </nav>             
+                        </div>
+                    </section>
+                    <section id="main">
+                        <div class="section-content main-content">
+                            <div id="construction1">
+                                <img src="images/construction.gif" alt="">
+                            </div>
+                            <div id="placeholder" class="gray-border gray-border-inner">
+                                <img src="images/ds9crew.webp" alt="Deep Space Nine" width="780px">
+                            </div>
+                            <div id="construction2">
+                                <img src="images/construction2.gif" alt="">
+                            </div>
+                        </div>
+                    </section>
+                    <section id="footer">
+                        <div class="section-content">
+                            <div id="devider">
+                                <img src="images/kdovesc.gif" alt="Animated Birds">
+                            </div>
+                            <div class="card-links">
+                                <div id="cards-top-row">
+                                    <img src="images/cards/anybrow.gif" alt="Any Browser">
+                                    <img src="images/cards/bookmark_this_page.gif" alt="Bookmark">
+                                    <img src="images/cards/built_with_microsoft_notepad.gif" alt="MS Notepad">
+                                    <img src="images/cards/nocodeandrun.gif" alt="No Code">
+                                </div>
+                                <div id="cards-bottom-row">        
+                                    <img src="images/cards/ms.gif" alt="Microsoft">
+                                    <img src="images/cards/got_html.gif" alt="Got HTML">
+                                    <img src="images/cards/email-icon.gif" alt="E-mail">
+                                    <img src="images/cards/startpage_button.gif" alt="Startpage">
+                                </div>
+                            </div>
+                            <div class="hit-counter">
+                                You are the
+                                <img src="images/hitcounter.png" />
+                                visitor!!!
+                            </div>
+                            <div class="footer-bottom">
+                                <div class="footer-bottom-text" id="bottom-text-left"><p>Site design by Keen 1998-2022</p></div>
+                                <div class="footer-bottom-text" id="bottom-text-right"><p>All rights reserved ©</p></div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <hr>
-                <div class="marquee-bar">
-                    <marquee id="marquee-text">Welcome to my presentation!
-                        <img class="marquee-gif" src="images/flickering-stars.gif" alt="Flickering Stars">
-                    </marquee>
-                </div>  
-                <hr>     
-                <nav class="nav-bar">
-                    <div>
-                    <a href="index.html" class="nav-btn"><img src="images/navigation/home88.gif" onmouseover="this.src='images/navigation/home88sel.gif'" onmouseout="this.src='images/navigation/home88.gif'"></a>
-                    <a href="index.html" class="nav-btn"><img src="images/navigation/about88.gif" onmouseover="this.src='images/navigation/about88sel.gif'" onmouseout="this.src='images/navigation/about88.gif'"></a>
-                    <a href="index.html" class="nav-btn"><img src="images/navigation/links88.gif" onmouseover="this.src='images/navigation/links88sel.gif'" onmouseout="this.src='images/navigation/links88.gif'"></a>
-                    </div>
-                </nav>             
             </div>
-        </section>
-        <section id="main">
-            <div class="section-content main-content">
-                <div id="construction1">
-                    <img src="images/construction.gif" alt="">
-                </div>
-                <div id="placeholder" class="gray-border gray-border-inner">
-                    <img src="images/ds9crew.webp" alt="Deep Space Nine" width="780px">
-                </div>
-                <div id="construction2">
-                    <img src="images/construction2.gif" alt="">
-                </div>
-            </div>
-        </section>
-        <section id="footer">
-            <div class="section-content">
-                <div id="devider">
-                    <img src="images/kdovesc.gif" alt="Animated Birds">
-                </div>
-                <div class="card-links">
-                    <div id="cards-top-row">
-                        <img src="images/cards/anybrow.gif" alt="Any Browser">
-                        <img src="images/cards/bookmark_this_page.gif" alt="Bookmark">
-                        <img src="images/cards/built_with_microsoft_notepad.gif" alt="MS Notepad">
-                        <img src="images/cards/nocodeandrun.gif" alt="No Code">
-                    </div>
-                    <div id="cards-bottom-row">        
-                        <img src="images/cards/ms.gif" alt="Microsoft">
-                        <img src="images/cards/got_html.gif" alt="Got HTML">
-                        <img src="images/cards/email-icon.gif" alt="E-mail">
-                        <img src="images/cards/startpage_button.gif" alt="Startpage">
-                    </div>
-                </div>
-                <div class="hit-counter">
-                    You are the
-                    <img src="images/hitcounter.png" />
-                    visitor!!!
-                </div>
-                <div class="footer-bottom">
-                    <div class="footer-bottom-text" id="bottom-text-left"><p>Site design by Keen 1998-2022</p></div>
-                    <div class="footer-bottom-text" id="bottom-text-right"><p>All rights reserved ©</p></div>
-                </div>
-            </div>
-        </section>
+        </div>
     </body>
 </html>
