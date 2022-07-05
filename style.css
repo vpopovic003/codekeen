@@ -1,7 +1,13 @@
-body {
-    background: url(images/stars.gif);
-    width: 100%;
+html * {
+    font-family: "Century Gothic";
 }
+
+  .container {
+    background-image: url("images/39632.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
 
 section {
     display: flex;
