@@ -2,11 +2,17 @@ html * {
     font-family: "Century Gothic";
 }
 
-  .container {
-    background-image: url("images/39632.jpg");
+body, html {
+    height: 100%;
+    margin: 0;
+   }
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/39632.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    
   }
 
 section {
