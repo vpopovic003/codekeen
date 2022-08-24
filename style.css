@@ -1,5 +1,5 @@
 html * {
-    font-family: "Century Gothic";
+    font-family: 'JetBrains Mono', monospace;
 }
 
 body, html {
@@ -35,7 +35,7 @@ section {
 #welcome {
     display: flex;
     font-size: large;
-    font-style: italic;
+    /*font-style: italic;*/
     color: aqua;
     text-align: center;
     margin: 10px;
@@ -139,7 +139,7 @@ hr {
 .footer-bottom-text {
     display: flex;
     font-size: large;
-    font-style: italic;
+    /*font-style: italic;*/
     margin: auto;
 }
 
